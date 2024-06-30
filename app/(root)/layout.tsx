@@ -1,4 +1,4 @@
-import Sidebar from "@/components/Sidebar";
+// import Sidebar from "@/components/Sidebar";
 
 export default function RootLayout({
   children,
@@ -8,7 +8,8 @@ export default function RootLayout({
   const loggedIn = {firstName: 'Darshan' , lastName:'Thorat'};
   return (
       <main className="flex h-screen w-full font-inter">
-         <Sidebar user={loggedIn}/>
+         SIDEBAR
+         {/* <Sidebar user={loggedIn}/> */}
           {children}
       </main>
   );
